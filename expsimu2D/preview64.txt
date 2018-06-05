@@ -1,0 +1,31 @@
+resolution 64 64
+subSize 1
+source 0.5 0.1 0.1 0.05 0.8 20
+Tamb 1
+confineCoeff 30
+step 30
+stepTime 0.03
+frameCount 200
+maxIter 600
+innerIter 20
+velAttenCoeff 10
+densityAttenCoeff 0
+tempAttenCoeff 0
+octree_thresh1  4
+octree_thresh2  8
+octree_thresh3  24
+BFECC true
+useGuidingControl false
+guidingCoeff 0.0
+guidingFold null
+exportGuide true
+maxDensity 0.8
+maxTemperature 20
+
+BFECC false
+intObj null
+useMovingObject true
+movingObjectFile mvobjs2D_preview64.txt
+
+
+globalGridSolver  OPEN_POISSON

@@ -1,0 +1,1 @@
+ZQ_SmokeSimulation是左庆在博士期间研究Smoke Simulation时写的代码，需要依赖ZQlib和ZQlibCuda,里面也有一些不是Smoke Simulation相关的。

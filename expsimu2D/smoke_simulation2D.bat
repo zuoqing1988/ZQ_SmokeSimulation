@@ -1,0 +1,7 @@
+zq_smokesimulation preview64.txt preview64
+zq_smokesimulation fineguide256.txt fineguide256
+
+#zq_smokesimulation preview256.txt preview256
+#zq_smokesimulation fineguide256_0.txt fineguide256_0
+#zq_smokesimulation fineguide256_1.txt fineguide256_1
+pause

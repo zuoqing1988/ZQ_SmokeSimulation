@@ -1,0 +1,40 @@
+resolution 256 256
+subSize 8
+source 0.5 0.1 0.1 0.05 0.8 20
+Tamb 1
+confineCoeff 30
+steps 30
+stepTime 0.03
+frameCount 20000
+maxIter 1000
+innerIter 20
+velAtten 10
+densityAttenCoeff 0
+tempAttenCoeff 0
+velAttenCoeff 3
+maxDensity 0.8
+maxTemperature 20
+
+intobj oval
+BFECC false
+
+octree_thresh1 2
+octree_thresh2 4
+octree_thresh3 16
+
+useMovingObject true
+movingObjectFile mvobjs2D256.txt
+
+globalGridSolver OPEN_OCTREE_POISSON_SOR
+#globalGridSolver COARSE_OPEN_FLUX_SOR
+#globalGridSolver COARSE_OPEN_POISSON_SOR
+#globalGridSolver TOTAL_OPEN_FLUX_SOR
+#globalGridSolver TOTAL_OPEN_POISSON_SOR
+#globalGridSolver OPEN_FLUX
+#globalGridSolver CLOSED_POISSON
+#globalGridSolver OPEN_POISSON
+#globalGridSolver CLOSED_FLUX
+#globalGridSolver OPEN_OCTREE_FLUX
+#globalGridSolver CLOSED_OCTREE_FLUX
+#globalGridSolver OPEN_OCTREE_POISSON
+#globalGridSolver CLOSED_OCTREE_POISSON
